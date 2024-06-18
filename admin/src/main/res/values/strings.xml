@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">admin</string>
+    <string name="upload">Upload</string>
+    <string name="enter_owner_name">Enter Owner Name</string>
+    <string name="enter_vechicle_brand">Enter Vechicle Brand</string>
+    <string name="enter_vechicle_rto">Enter Vechicle RTO</string>
+    <string name="save">Save</string>
+    <string name="enter_vechicle_number">Enter Vechicle Number</string>
+</resources>
