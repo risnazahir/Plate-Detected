@@ -3,10 +3,7 @@ package com.abp.admin
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.abp.admin.databinding.ActivityUploadBinding
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -23,22 +20,22 @@ class UploadActivity : AppCompatActivity() {
 
         binding.SaveButton.setOnClickListener {
             val ownerName = binding.UploadOwnerName.text.toString()
-            val vehicleBrand = binding.UploadVechicleBrand.text.toString()
-            val vehicleRTO = binding.UploadVechicleRTO.text.toString()
-            val vehicleNumber = binding.UploadVechicleNumber.text.toString()
+            val vechicleBrand = binding.UploadVechicleBrand.text.toString()
+            val vechicleRTO = binding.UploadVechicleRTO.text.toString()
+            val vechicleNumber = binding.UploadVechicleNumber.text.toString()
 
-            if (ownerName.isNotEmpty() && vehicleBrand.isNotEmpty() && vehicleRTO.isNotEmpty() && vehicleNumber.isNotEmpty()) {
-                saveVehicleData(ownerName, vehicleBrand, vehicleRTO, vehicleNumber)
+            if (ownerName.isNotEmpty() && vechicleBrand.isNotEmpty() && vechicleRTO.isNotEmpty() && vechicleNumber.isNotEmpty()) {
+                saveVehicleData(ownerName, vechicleBrand, vechicleRTO, vechicleNumber)
             } else {
                 Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
             }
         }
     }
 
-    private fun saveVehicleData(ownerName: String, vehicleBrand: String, vehicleRTO: String, vehicleNumber: String) {
-        databaseReference = FirebaseDatabase.getInstance().getReference("Vehicle Information")
-        val vehicleData = VehicleData(ownerName, vehicleBrand, vehicleRTO, vehicleNumber)
-        databaseReference.child(vehicleNumber).setValue(vehicleData)
+    private fun saveVehicleData(ownerName: String, vechicleBrand: String, vechicleRTO: String, vechicleNumber: String) {
+        databaseReference = FirebaseDatabase.getInstance().getReference("vehicle Information")
+        val vehicleData = VehicleData(ownerName, vechicleBrand, vechicleRTO, vechicleNumber)
+        databaseReference.child(vechicleNumber).setValue(vehicleData)
             .addOnSuccessListener {
                 clearInputFields()
                 Toast.makeText(this, "Data saved successfully", Toast.LENGTH_SHORT).show()
