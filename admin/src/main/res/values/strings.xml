@@ -6,4 +6,10 @@
     <string name="enter_vechicle_rto">Enter Vechicle RTO</string>
     <string name="save">Save</string>
     <string name="enter_vechicle_number">Enter Vechicle Number</string>
+    <string name="update">Update</string>
+    <string name="enter_vehicle_number">Enter vehicle number</string>
+    <string name="e">Enter owner name</string>
+    <string name="enter_vehicle_brand">Enter vehicle brand</string>
+    <string name="enter_vehicle_rto">Enter vehicle RTO</string>
+    <string name="update2">Update</string>
 </resources>

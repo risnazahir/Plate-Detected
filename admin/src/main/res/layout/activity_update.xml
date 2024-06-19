@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/update_admin"
+    tools:context=".UpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/referenceVehicleNumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/blue_border"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_vehicle_number"
+            android:padding="16dp"
+            android:textColor="@color/darkblue" />
+
+        <EditText
+            android:id="@+id/updateOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/blue_border"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:hint="@string/e"
+            android:padding="16dp"
+            android:textColor="@color/darkblue" />
+
+        <EditText
+            android:id="@+id/updateVehicleBrand"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/blue_border"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_vehicle_brand"
+            android:padding="16dp"
+            android:textColor="@color/darkblue" />
+
+        <EditText
+            android:id="@+id/updateVehicleRTO"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/blue_border"
+            android:backgroundTint="@color/white"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_vehicle_rto"
+            android:padding="16dp"
+            android:textColor="@color/darkblue" />
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/darkblue"
+            android:text="@string/update2"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+</LinearLayout>
