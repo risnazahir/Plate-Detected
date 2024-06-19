@@ -15,10 +15,9 @@
         android:layout_width="match_parent"
         android:layout_height="86dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="300dp"
         android:orientation="vertical"
         android:padding="20dp">
-        <!-- You can add content here if needed -->
     </LinearLayout>
 
     <Button
@@ -50,5 +49,20 @@
             android:textColor="@color/darkblue"
             android:textSize="18sp"
             app:strokeWidth="2dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mainDelete"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:padding="16dp"
+            android:text="@string/delete"
+            android:textColor="@color/darkblue"
+            android:textSize="18sp"
+            app:strokeWidth="2dp" />
     </LinearLayout>
 </LinearLayout>
+
+

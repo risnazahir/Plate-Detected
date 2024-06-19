@@ -12,4 +12,7 @@
     <string name="enter_vehicle_brand">Enter vehicle brand</string>
     <string name="enter_vehicle_rto">Enter vehicle RTO</string>
     <string name="update2">Update</string>
+    <string name="delete">Delete</string>
+    <string name="enter_vehicle_number2">Enter vehicle number</string>
+    <string name="delete2">Delete</string>
 </resources>
