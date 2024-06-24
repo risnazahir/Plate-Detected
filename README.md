@@ -1,3 +1,4 @@
+![image](https://github.com/AqilahFedura/Plate-Detected/assets/122027054/93ad1a7c-c950-4681-87ad-4e614e8045e2)
 # APP plateDetected
 
 APP plateDetected is a simple yet powerful application designed to help identify vehicle license plates in the event of crimes or accidents. If an incident occurs and the perpetrator flees, victims can use the license plate number to track down the vehicle. 
